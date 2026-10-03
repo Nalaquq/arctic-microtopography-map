@@ -1,6 +1,6 @@
 # How is microtopography computed from high-resolution elevation data in Arctic and subarctic landscapes? Protocol for a systematic map
 
-Version 0.1, draft for registration, 3 October 2026. Lead reviewer: S. Gleason. Not yet registered: search strings and decision thresholds are finalised in version 1.0, after search testing (Stage S1) and before screening starts.
+Version 0.2, draft for registration, 3 October 2026. Lead reviewer: S. Gleason. Not yet registered: search strings and decision thresholds are finalised in version 1.0, after search testing (Stage S1) and before screening starts.
 
 ## Summary
 
@@ -47,7 +47,7 @@ The map does not judge which method is most accurate. That is the benchmark's jo
 
 - **Type:** systematic map following the CEE Guidelines and Standards, version 5.1 (CEE, 2022) and James et al. (2016).
 - **Reporting:** ROSES for systematic maps (Haddaway et al., 2018), cross-walked to PRISMA-ScR (Tricco et al., 2018) with JBI scoping-review guidance (Peters et al., 2020; Pollock et al., 2023). Searches are reported to PRISMA-S (Rethlefsen et al., 2021). The ROSES form for systematic-map protocols is completed at registration.
-- **Registration:** protocol v1.0 is registered on OSF Registries before screening starts. If the map is to be published as a CEE evidence synthesis, for example in Environmental Evidence, the protocol is registered in PROCEED instead, as CEE asks for maps intended for its journal. The route is chosen in S1.
+- **Registration:** protocol v1.0 is registered on OSF Registries before screening starts.
 - **Unit of synthesis:** a study is one analysis of one or more elevation datasets for one study area, reported in one or more records. Several records on the same analysis are one study (companions, E7). A record with separate analyses of several areas is one study with several elevation inputs.
 - **Engagement:** in S1, three to five Arctic terrain researchers and data providers (for example NGEE Arctic, NEON, USGS 3DEP and the Polar Geospatial Center) are asked to name key studies, which become seeds, and to comment on the codebook. Their input is logged.
 - **Versioning:** v0.x are drafts; v1.0 is the registered protocol; later changes are dated amendments (section 12) reported as deviations.
@@ -213,7 +213,7 @@ A systematic map does not rate risk of bias. Instead it records whether and how 
 - **Exploratory associations:** RCI against year, venue field and data source, labelled exploratory.
 - **Practice envelope (SQ8):** a configuration is a combination of variable family, algorithm family, software family, cell-size class (≤ 0.25, 0.25–0.5, 0.5–1, 1–2 and 2–5 m), support class (native 3 × 3; up to 5 m; 5–20 m; over 20 m) and pre-processing class (none, smoothing, resampling, other). The envelope reports configuration frequencies and the smallest set covering at least 80% of instances.
 - **Sensitivity evidence:** a narrative synthesis of studies that tested computation choices.
-- **Release:** the database with a data dictionary, code and figures, with a DOI on OSF or Zenodo; the ROSES form; and the flow diagram.
+- **Release:** the database with a data dictionary, the full list of included studies with references, code and figures, with a DOI on OSF or Zenodo; the ROSES form; and the flow diagram.
 
 ## 10. Decision gate: is the benchmark warranted?
 
@@ -255,6 +255,7 @@ At every save point, PROJECT_STATUS.md and CHANGELOG.md are updated, file versio
 | Version | Date | Section | Change | Reason |
 | --- | --- | --- | --- | --- |
 | 0.1 | 3 Oct 2026 | All | First draft | – |
+| 0.2 | 3 Oct 2026 | 3, 9, 14 | Registration on OSF only; full list of included studies released with the data; second reviewer is a student collaborator | Environmental Evidence is out of scope; the target journal limits reference lists; lead author's decision |
 
 ## 13. Anticipated limitations
 
@@ -267,7 +268,7 @@ At every save point, PROJECT_STATUS.md and CHANGELOG.md are updated, file versio
 
 - **Funding:** to be added.
 - **Competing interests:** to be added.
-- **Contributions:** S. Gleason, conception, protocol, screening and coding; second reviewer to be confirmed.
+- **Contributions:** S. Gleason, conception, protocol, screening and coding; a student collaborator, second reviewer (name to be added).
 - **AI use:** this draft was prepared with help from Claude (Anthropic), a large language model, for scoping searches, drafting and template construction. The lead reviewer is responsible for all content. AI use in screening and coding is described in sections 6.4 and 7.2.
 
 ## References

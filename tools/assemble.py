@@ -52,5 +52,6 @@ src = open(ROOT / "tools" / "src" / "protocol_src.md").read()
 md = (src.replace("{{RCI_TABLE}}", rci_table).replace("{{CODEBOOK_OVERVIEW}}", overview)
       .replace("{{APPENDIX_A}}", appendix_a).replace("{{LLM_PROMPT}}", "```\n" + prompt + "\n```"))
 assert "{{" not in md
-open(f"{R}/02_protocol/Review_Protocol_v0.1.md", "w").write(md)
+VER = __import__("os").environ.get("PROTO_VER", "0.2")
+open(f"{R}/02_protocol/Review_Protocol_v{VER}.md", "w").write(md)
 print(len(md), "chars;", md.count("\n## "), "level-2 sections")

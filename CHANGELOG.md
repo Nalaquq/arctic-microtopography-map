@@ -3,6 +3,17 @@
 Newest first. One entry per save point. Version numbers follow each file's own series
 (protocol 0.x until registration at 1.0; plan 1.x; templates 0.x).
 
+## Unreleased – preparing Stage S1 (3 October 2026)
+
+- **Changed** protocol v0.1 → v0.2: registration on OSF only (Environmental Evidence is out of scope); the full list of
+  included studies is released with the data; the second reviewer is a student collaborator. Amendments table updated.
+- **Changed** plan v1.1 → v1.2: Paper 1 targets The Cryosphere as a research article (alternative: Permafrost and
+  Periglacial Processes); second reviewer named; the GitHub repository is the canonical copy and work continues in
+  Claude Code in VS Code on Fedora. Change log gains a version column.
+- **Added** CLAUDE.md (project context and working rules) and Fedora set-up steps in README.md.
+- **Moved** superseded documents to `01_plan/archive/` and `02_protocol/archive/`; `tools/build_all.sh` now takes the
+  current versions from `PROTO_VER` and `PLAN_VER`.
+
 ## S0 package – 3 October 2026
 
 Stage S0 (protocol and setup) of the systematic map.
