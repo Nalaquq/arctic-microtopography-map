@@ -1,0 +1,14 @@
+# Python and Node
+__pycache__/
+*.pyc
+node_modules/
+tools/build/
+
+# Licensed database exports: archive privately, never commit (see data/README.md)
+data/raw_exports/
+
+# Office and OS clutter
+~$*
+.~lock.*
+.DS_Store
+Thumbs.db

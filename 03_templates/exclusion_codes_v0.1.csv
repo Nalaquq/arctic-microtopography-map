@@ -1,0 +1,10 @@
+code,definition,applies_at
+E1,"Not primary research, a methods paper or a data paper (review, editorial, commentary), or only an abstract is available. Reviews are kept for citation chasing.",title/abstract and full text
+E2,"Area out of scope: meets none of (a) inside the CAVM extent, (b) tundra or forest-tundra north of 60°N, (c) tundra or a permafrost landform in a permafrost zone (Obu et al. 2019) north of 50°N. Includes sites south of 50°N, Antarctica and planetary analogues.",title/abstract and full text
+E3,"Surface is not land: glacier, ice sheet, sea ice, snow surface only, or seabed.",title/abstract and full text
+E4,"No elevation data used (e.g., microforms mapped from imagery alone).",title/abstract and full text
+E5,"All elevation data coarser than 5 m native resolution, or point clouds with nominal spacing above 5 m.",title/abstract and full text
+E6,"No terrain variable computed and no microform delineated from the 5 m-or-finer data (e.g., raw elevation or elevation change only).",title/abstract and full text
+E7,Secondary report of an included study (linked as a companion).,full text
+E8,Full text unobtainable after the retrieval procedure.,full text
+E9,Full text in a language that could not be translated.,full text
