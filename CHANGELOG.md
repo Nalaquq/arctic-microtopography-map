@@ -13,6 +13,8 @@ Newest first. One entry per save point. Version numbers follow each file's own s
 - **Added** CLAUDE.md (project context and working rules) and Fedora set-up steps in README.md.
 - **Moved** superseded documents to `01_plan/archive/` and `02_protocol/archive/`; `tools/build_all.sh` now takes the
   current versions from `PROTO_VER` and `PLAN_VER`.
+- **Added** the lead author's original scoping files (Dossier v0.2 and Evidence Matrix v0.2, 80 records) to
+  `05_scoping_v0.3/v0.2_originals/` for provenance; their records are carried into Evidence Matrix v0.3.
 
 ## S0 package – 3 October 2026
 

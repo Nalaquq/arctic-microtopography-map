@@ -67,7 +67,7 @@ Claude Code reads CLAUDE.md for the working rules. Scripts need Python 3 only (s
 | 03_templates/search_log_v0.1.csv | Formal search log with the planned searches |
 | 03_templates/seed_set_v0.1.csv | 35 seed records: 21 core (14 development, 7 validation), 9 boundary, 5 expected exclusions |
 | 04_scripts/ | search_blocks.py, recall_check.py, openalex_harvest.py, test_scripts.py |
-| 05_scoping_v0.3/ | Dossier v0.3, Evidence Matrix v0.3, Search Log v0.3, operator_pilot.py (frozen) |
+| 05_scoping_v0.3/ | Dossier v0.3, Evidence Matrix v0.3 (202 records: the original 80 plus 122 added), Search Log v0.3, operator_pilot.py (frozen); the original v0.2 dossier and matrix in v0.2_originals/ |
 | data/ | Working data from Stage S2 on; licensed raw exports are git-ignored (see data/README.md) |
 | tools/ | Build scripts that regenerate templates, search strings and Word files (see tools/README.md) |
 
