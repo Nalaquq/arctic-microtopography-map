@@ -23,14 +23,16 @@ tundra terrain, virtual laser scanning and public Arctic LiDAR.
 | 2026-10-03 | Save progress in stages as versioned packages, updating the plan along the way | S. Gleason |
 | 2026-10-03 | Review type: systematic map (CEE v5.1, ROSES, PRISMA-ScR); register on OSF, or PROCEED if published as a CEE synthesis | Proposed in protocol v0.1; confirm in S1 |
 | 2026-10-03 | Project home: GitHub under the Nalaquq account (proposed repository: arctic-microtopography-map) | S. Gleason |
-| 2026-10-03 | S. Gleason screens every record. No second human reviewer for now, so the protocol's fallback applies: the validated LLM is the second screener for calibration, and full-text consistency is an intra-rater re-screen after two weeks. A second human can still join for calibration | S. Gleason |
+| 2026-10-03 | S. Gleason screens every record, and a second human reviewer will be added (name to be confirmed) for the 200-record and 20-full-text calibration, the 20% full-text check and the coding pilot | S. Gleason |
 
 ## Open questions for S. Gleason
 
 1. Repository visibility: private until the map is published (recommended), or public now?
-2. Which licensed platforms can you search: Web of Science, Scopus, GeoRef (EBSCOhost or ProQuest), ProQuest Dissertations & Theses?
-3. Registration route: OSF Registries (default) or PROCEED (if Environmental Evidence is the target)?
-4. Who are three to five experts or data providers to ask for key studies?
+2. Who is the second reviewer, and when can they do the calibration samples?
+3. Target journal for Paper 1 (shortlist: The Cryosphere, Permafrost and Periglacial Processes, Progress in Physical Geography; Environmental Evidence is out of scope).
+4. Which licensed platforms can you search: Web of Science, Scopus, GeoRef (EBSCOhost or ProQuest), ProQuest Dissertations & Theses?
+5. Registration route: OSF Registries is now the expected route, since Environmental Evidence is out of scope; confirm.
+6. Who are three to five experts or data providers to ask for key studies?
 
 ## Next actions (Stage S1)
 
